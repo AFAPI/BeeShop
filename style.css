@@ -1,0 +1,1807 @@
+BODY {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+position: absolute;
+width: 1920px;
+height: 144px;
+left: 0px;
+top: 0px;
+background: linear-gradient(92.55deg, #F2B236 32.31%, #FF9C1A 64.34%);
+box-shadow: 0px 0px 7px #FFDBA6;
+}
+header img{
+position: absolute;
+width: 290px;
+height: 72px;
+left: 156px;
+top: 42px;
+}
+input{
+position: absolute;
+width: 327px;
+height: 45px;
+left: 838px;
+top: 56px;
+background: #FFFFFF;
+border-radius: 20px;
+z-index: 1;
+}
+
+.tel{
+position: absolute;
+width: 276px;
+height: 21px;
+left: 537px;
+top: 45px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #884900;
+}
+.btp{
+position: absolute;
+left: 78.1%;
+right: 20.23%;
+top: 0.95%;
+bottom: 98.71%;
+background: #A5AAAF;
+z-index: 2;
+}
+
+#productas{
+    position: absolute;
+   left: 1030px;
+   top: 15px;
+}
+#productas img{
+    width: 50px !important;
+height: 50px !important;
+}
+#ak{position:absolute;
+left: 1100px;
+top: 15px;
+}
+#ak img{
+    width: 50px !important;
+    height: 50px !important;
+}
+.head2{position: absolute;
+    width: 1920px;
+    height: 69px;
+    left: 0px;
+    top: 144px;
+    
+    background: #FAFAF9;
+}
+.detigl{
+    
+    
+}
+.imgg{
+    position: absolute;
+    width: 100%;
+    height: 648px;
+    top: 213px;
+    background: url(image/detki.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(40%);
+}
+.katalog{position: absolute;
+display: flex;
+gap: 35px;
+    width: 62px;
+    height: 26px;
+    left: 715px;
+    top: 166px;
+    
+    /* Блочный текст */
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    
+    text-align: right;
+    
+    /* #222528 */
+    
+    color: #222528;
+}
+
+#navigation_catalog {
+    white-space: nowrap;
+    text-decoration: none;
+    /* Блочный текст */
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    
+    text-align: right;
+    
+    /* #222528 */
+    
+    color: #000000;
+    
+}
+#navigation_sales {
+  white-space: nowrap;
+  text-decoration: none;
+  /* Блочный текст */
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  text-align: right;
+  
+  /* #222528 */
+  
+  color: #000000;
+  
+}
+#navigation_otz {
+  white-space: nowrap;
+  text-decoration: none;
+  /* Блочный текст */
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  text-align: right;
+  
+  /* #222528 */
+  
+  color: #000000;
+  
+}
+
+#advertisement {
+  display: none;
+}
+
+#navigation_dost {
+  white-space: nowrap;
+  text-decoration: none;
+  /* Блочный текст */
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  text-align: right;
+  
+  /* #222528 */
+  
+  color: #000000;
+  
+}
+#navigation1{
+    text-decoration: none;
+}
+.textdetki{
+    position: absolute;
+width: 888px;
+height: 150px;
+left: 276px;
+top: 448px;
+
+/* 1 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+
+
+/* #FAFAF9 */
+
+color: #FAFAF9;
+
+text-shadow: 0px 2px 5px rgba(252, 252, 252, 0.48);
+}
+/* ------ */
+/* Кнопка выпадающего списка */
+.dropbtn {
+    background-color: #d48e14;
+    color: white;
+   
+    font-size: 14px;
+    border: 20px ;
+    padding: 27px 10px;
+    display: block;
+    margin-top:-22px;
+    
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+
+
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: #d48e14;}
+  
+  /* Показать выпадающее меню при наведении курсора */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+  .dropdown:hover .dropbtn {background-color: #757575;}
+  #ak{
+    cursor:grab;
+  }
+  .textdetki2{
+    position: absolute;
+width: 599px;
+height: 26px;
+left: 420px;
+top: 582px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+text-align: center;
+
+/* #FAFAF9 */
+
+color: #FAFAF9;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  }
+  .igrav{
+    
+flex-direction: column;
+align-items: flex-start;
+padding-top: 35px;
+gap: 10px;
+
+position: absolute;
+width: 306px;
+height: 54px;
+left: 567px;
+top: 651px;
+width: 306px;
+height: 54px;
+
+background: #DB4E66;
+box-shadow: 2px 4px 9px rgba(243, 55, 87, 0.42);
+border-radius: 14px;
+
+/* Inside auto layout */
+
+
+
+
+/* кнопка */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-decoration: none;
+
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+  }
+  .insta{
+    position: absolute;
+width: 49.21px;
+height: 49.21px;
+left: 1034px;
+top: 773px;
+  }
+  .insta:hover{
+    filter: brightness(130%);
+  }
+  .telega:hover{
+    filter: brightness(130%);
+  }
+  .viber:hover{
+    filter: brightness(130%);
+  }
+  .watsapp:hover{
+    filter: brightness(130%);
+  }
+  .telega{
+    position: absolute;
+width: 49.21px;
+height: 49.21px;
+left: 1253.64px;
+top: 773px;
+  }
+  .viber{
+    position: absolute;
+width: 49.21px;
+height: 49.21px;
+left: 1180.43px;
+top: 773px;
+  }
+  .watsapp{
+    position: absolute;
+width: 49.21px;
+height: 49.21px;
+left: 1107.21px;
+top: 773px;
+  }
+.skidki{
+    position: absolute;
+width: 1670px;
+height: 254px;
+left: 138px;
+top: 909px;
+}
+.noveyshie{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+
+/* #5B636B */
+
+color: #5B636B;
+}
+.noveyshie1{
+    
+
+
+font-family: 'Rubik';
+font-style: normal;
+
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+margin-left: 1150px;
+margin-top: -25px;
+text-transform: uppercase;
+
+/* #DB4E66 */
+
+color: #DB4E66;
+}
+.skidkiz{
+    position: absolute;
+width: 546px;
+height: 194px;
+left: 138px;
+top: 969px;
+
+background: #ffffff;
+border-radius: 14px;
+filter: drop-shadow(0px 4px 9px #D3D3D3);
+}
+.skidkizh{
+    position: absolute;
+    width: 546px;
+    height: 194px;
+    left: 700px;
+    top: 969px;
+    
+    background: #FFFFFF;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 9px #D3D3D3);
+}
+.skidkizhp{
+    position: absolute;
+    width: 546px;
+    height: 194px;
+    left: 560px;
+    top: 0px;
+    
+    background: #ffffff;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 9px #D3D3D3);
+}
+.procent{position: absolute;
+    width: 118px;
+    height: 118px;
+    left: 30px;
+    top: 50px
+  }
+.skid{
+    position: absolute;
+width: 324.57px;
+height: 28px;
+left: 160px;
+top: 45px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* #DB4E66 */
+
+color: #DB4E66;
+}
+.txt1{
+    position: absolute;
+width: 330.49px;
+height: 78px;
+left: 160px;
+top: 85px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* #222528 */
+
+color: #222528;
+}
+.procent2{
+  position: absolute;
+
+left: 30px;
+top: 50px;
+}
+.skid1{
+  position: absolute;
+width: 324.57px;
+height: 28px;
+left: 130px;
+top: -5px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* #DB4E66 */
+
+color: #DB4E66;
+}
+.txt2{
+  position: absolute;
+width: 330.49px;
+height: 78px;
+left: 130px;
+top: 33px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* #222528 */
+
+color: #222528;
+}
+.procent3{
+  position: absolute;
+width: 118px;
+height: 118px;
+left: 35px;
+top: 45px;
+}
+.skid2{
+  position: absolute;
+width: 324.57px;
+height: 28px;
+left: 160px;
+top: 40px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* #DB4E66 */
+
+color: #DB4E66;
+}
+.txt3{
+  position: absolute;
+width: 330.49px;
+height: 78px;
+left: 160px;
+top: 80px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* #222528 */
+
+color: #222528;
+}
+.katalogigr{
+  position: absolute;
+width: 260px;
+height: 52px;
+right: 1430px;
+top: 438px;
+
+/* 2 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+text-align: center;
+
+/* #222528 */
+
+color: #222528;
+}
+
+.const_key{
+position: absolute;
+top: 500px;
+}
+.popular1{
+  position: absolute;
+  width: 138px;
+  height: 26px;
+  left: 128px;
+  top: 970px;
+  
+  /* Блочный текст */
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  text-align: center;
+  
+  /* #5B636B */
+  
+  color: #5B636B; 
+}
+
+.prosmotrigr{
+  position: absolute;
+width: 170px;
+height: 19px;
+left: 1150px;
+top: 940px;
+
+/* кнопка */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+/* #DB4E66 */
+
+color: #DB4E66;
+}
+.blockigr1{
+  position: absolute;
+width: 365px;
+height: 711px;
+left: 138px;
+top: 1050px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 9px #D3D3D3;
+border-radius: 12px;
+}
+
+.blockigr2{
+  position: absolute;
+width: 365px;
+height: 711px;
+left: 538px;
+top: 1050px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 9px #D3D3D3;
+border-radius: 12px;
+}
+
+.blockigr3{
+  position: absolute;
+width: 365px;
+height: 711px;
+left: 938px;
+top: 1050px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 9px #D3D3D3;
+border-radius: 12px;
+}
+
+.katalogph{
+  position: absolute;
+width: 315px;
+height: 315px;
+left: 25px;
+top: 10px;
+
+background: url(DSC_2647.jpg);
+border-radius: 6px;
+}
+
+.nastolka1{
+  position: absolute;
+  width: 277px;
+  height: 42px;
+  left: 0px;
+  top: 340px;
+
+  /* 6 */
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  
+  /* #222528 */
+  
+  color: #222528;
+}
+
+.forma3{
+  position: absolute;
+width: 180px;
+height: 130px;
+left: 10px;
+top: 410px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+}
+
+.stoimost{
+  position: absolute;
+width: 79px;
+height: 28px;
+left: 120px;
+top: 550px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+/* #DB4E66 */
+
+color: #DB4E66;
+
+}
+
+.btp1{
+  position: absolute;
+width: 306px;
+height: 54px;
+left: 5px;
+top: 600px;
+
+background: #F2B236;
+box-shadow: 0px 3px 7px #FFE9BF;
+border-radius: 14px;
+}
+
+.dobavlenie1{
+  position: absolute;
+width: 306px;
+height: 54px;
+left: 5px;
+top: 600px;
+
+background: #F2B236;
+box-shadow: 0px 3px 7px #FFE9BF;
+border-radius: 14px;
+}
+
+.dob1{
+  position: absolute;
+left: 20.26%;
+right: 20.26%;
+top: 577px;
+bottom: 33.33%;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF; 
+}
+
+.mamba1{
+  position: absolute;
+width: 133.74px;
+height: 29px;
+left: 175px;
+top: 10px;
+
+/* #90C1BF */
+
+background: #90C1BF;
+border-radius: 6px;
+}
+
+.vozrast{
+  position: absolute;
+width: 134px;
+height: 19px;
+left: 175px;
+top: 16px;
+
+/* кнопка */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+/* #FAFAF9 */
+
+color: #ffffff;
+
+}
+
+.zadniy{
+  position: absolute;
+width: 1941.67px;
+height: 957px;
+left: 40px;
+top: 1800px;
+}
+
+.kvest{
+  position: absolute;
+width: 697px;
+height: 104px;
+left: 138px;
+top: 2901px;
+
+/* 2 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+
+/* #222528 */
+
+color: #222528;
+
+}
+
+.shariki{
+  position: absolute;
+width: 140px;
+height: 140px;
+left: 139px;
+top: 3100px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 9px #DADADA;
+border-radius: 14px;
+}
+
+.blocktext1{
+  
+position: absolute;
+width: 401px;
+height: 56px;
+left: 170px;
+top: 50px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+/* #222528 */
+
+color: #222528;
+
+}
+
+.pirat{
+  position: absolute;
+  width: 140px;
+  height: 141px;
+  left: 739px;
+  top: 3100px;
+  
+}
+
+.blocktext2{
+  position: absolute;
+width: 399px;
+height: 84px;
+left: 180px;
+top: 50px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+/* #222528 */
+
+color: #222528;
+
+}
+
+.kubik{
+  position: absolute;
+width: 140px;
+height: 140px;
+left: 739px;
+top: 3300px;
+
+}
+
+.blocktext3{
+  position: absolute;
+width: 399px;
+height: 56px;
+left: 180px;
+top: 50px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+/* #222528 */
+
+color: #222528;
+
+}
+
+.mozgi{
+  position: absolute;
+width: 140px;
+height: 140px;
+left: 138px;
+top: 3300px;
+
+}
+
+.blocktext4{
+  position: absolute;
+width: 400px;
+height: 56px;
+left: 170px;
+top: 50px;
+
+/* 5 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+/* #222528 */
+
+color: #222528;
+}
+
+.perkatalog{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 306px;
+  height: 54px;
+  left: 138px;
+  top: 3500px;
+  width: 306px;
+height: 54px;
+
+background: #DB4E66;
+box-shadow: 2px 4px 9px #FBCCD4;
+border-radius: 14px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  
+}
+
+.texebl1{
+  position: absolute;
+width: 122px;
+height: 19px;
+left: 220px;
+top: 3520px;
+
+/* кнопка */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.chasto{
+  position: absolute;
+width: 608px;
+height: 52px;
+left: 138px;
+top: 3800px;
+
+/* 2 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+
+/* #222528 */
+
+color: #222528;
+
+}
+
+.perkatalog{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 306px;
+height: 54px;
+left: 138px;
+top: 4600px;
+
+}
+
+.texebl2{
+  position: absolute;
+width: 169px;
+height: 19px;
+left: 200px;
+top: 4620px;
+
+/* кнопка */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #ffffff;
+
+}
+
+.otzyv{
+  position: absolute;
+width: 492px;
+height: 52px;
+left: 138px;
+top: 4750px;
+
+/* 2 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+
+/* #222528 */
+
+color: #222528;
+
+}
+
+.bolshoy{
+  position: absolute;
+width: 1165px;
+height: 953px;
+left: 138px;
+top: 4900px;
+
+}
+
+.posledzyv{
+  position: absolute;
+width: 147px;
+height: 26px;
+left: 138px;
+top: 4850px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+text-align: center;
+
+/* #5B636B */
+
+color: #5B636B;
+
+}
+
+.smotrotzyv{
+  position: absolute;
+width: 195px;
+height: 19px;
+left: 1095px;
+top: 4950px;
+
+/* кнопка */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+/* #DB4E66 */
+
+color: #DB4E66;
+}
+
+.comments {
+  position: absolute;
+  width: 100%;
+  height: 953px;
+  top: 5515px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.commentsline {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px ;
+}
+
+.comment {
+  width: 564px;
+  height: 368px;
+
+  background: #FFFFFF;
+  /* стиль */
+
+  box-shadow: 0px 4px 9px #D3D3D3;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.commentheader {
+  margin-bottom: 20px;
+  width: 94%;
+  margin-inline: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+}
+
+.commentinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.commentdecs {
+  width: 94%;
+  margin-inline: 3%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+
+  /* #222528 */
+
+  color: #222528;
+}
+
+.commentread {
+  text-decoration: none;
+  margin-left: 3%;
+  color: #F2B236;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.commentname {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* #222528 */
+
+  color: #222528;
+}
+
+.commentdate {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+
+  /* #A5AAAF */
+
+  color: #A5AAAF;
+}
+
+.commentmark {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 50px;
+  /* identical to box height */
+
+
+  /* #F2B236 */
+
+  color: #F2B236;
+}
+
+.podval{
+  position: absolute;
+  width: 100%;
+  height: 517px;
+  top: 1015px;
+
+  /* Градиент */
+
+  background: linear-gradient(92.55deg, #F2B236 32.31%, #FF9C1A 64.34%);
+}
+
+.lolo{
+  position: absolute;
+left: 9.58%;
+right: 72.01%;
+top: 11.22%;
+
+}
+
+.tele{
+  position: absolute;
+left: 9.58%;
+right: 72.85%;
+top: 29.01%;
+bottom: 66.92%;
+
+
+/* 6 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+}
+
+
+.tele p{
+  white-space: nowrap;
+}
+
+.mail{
+  position: absolute;
+left: 9.58%;
+right: 75.9%;
+top: 50.62px;
+bottom: 61.32%;
+
+/* 6 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+}
+
+.akcii{
+white-space: nowrap;
+  position: absolute;
+left: 100px;
+right: 100px;
+bottom: 83.75%;
+margin-left: 30em;
+top: -50px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* #FAFAF9 */
+
+color: #FAFAF9;
+}
+
+.prazdnik{
+  white-space: nowrap;
+  position: absolute;
+left: 100px;
+right: 100px;
+bottom: 83.75%;
+margin-left: 30em;
+top: -10px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* #FAFAF9 */
+
+color: #FAFAF9;
+}
+
+.razvivalka{
+  white-space: nowrap;
+  position: absolute;
+left: 100px;
+right: 100px;
+bottom: 83.75%;
+margin-left: 30em;
+top: 30px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* #FAFAF9 */
+
+color: #FAFAF9;
+}
+
+.idoroga{
+  white-space: nowrap;
+  position: absolute;
+left: 100px;
+right: 100px;
+bottom: 83.75%;
+margin-left: 30em;
+top: 65px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* #FAFAF9 */
+
+color: #FAFAF9;
+}
+
+.otzyvy00{
+  white-space: nowrap;
+  position: absolute;
+left: 100px;
+right: 100px;
+bottom: 83.75%;
+margin-left: 41em;
+top: -50px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* #FAFAF9 */
+
+color: #FAFAF9;
+}
+
+.dostavka{
+white-space: nowrap;
+position: absolute;
+left: 100px;
+right: 100px;
+bottom: 83.75%;
+margin-left: 41em;
+top: -11px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* #FAFAF9 */
+color: #FAFAF9;
+}
+
+.vozvrat{
+  white-space: nowrap;
+position: absolute;
+left: 100px;
+right: 100px;
+bottom: 83.75%;
+margin-left: 41em;
+top: 31px;
+
+/* Блочный текст */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* #FAFAF9 */
+color: #FAFAF9;
+}
+
+.nas{
+  white-space: nowrap;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  bottom: 83.75%;
+  margin-left: 41em;
+  top: 65px;
+  
+  /* Блочный текст */
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  
+  
+  /* #FAFAF9 */
+  color: #FAFAF9;
+  }
+
+  .kontakty{
+    white-space: nowrap;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    bottom: 83.75%;
+    margin-left: 41em;
+    top: 100px;
+    
+    /* Блочный текст */
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    
+    
+    /* #FAFAF9 */
+    color: #FAFAF9;
+    }
+  
+    .documenty{
+      white-space: nowrap;
+      position: absolute;
+      left: 100px;
+      right: 100px;
+      bottom: 83.75%;
+      margin-left: 41em;
+      top: 135px;
+      
+      /* Блочный текст */
+      
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      /* identical to box height, or 26px */
+      
+      
+      /* #FAFAF9 */
+      color: #FAFAF9;
+      }
+    
+      .lickab{
+        white-space: nowrap;
+      position: absolute;
+      left: 100px;
+      right: 100px;
+      bottom: 83.75%;
+      margin-left: 55em;
+      top: -50px;
+      
+      /* Блочный текст */
+      
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 18px;
+      line-height: 160%;
+      /* identical to box height, or 26px */
+      
+      
+      /* #FAFAF9 */
+      color: #FAFAF9;
+      }
+
+      .partneram{
+        white-space: nowrap;
+      position: absolute;
+      left: 100px;
+      right: 100px;
+      bottom: 83.75%;
+      margin-left: 55em;
+      top: -11px;
+      
+      /* Блочный текст */
+      
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      /* identical to box height, or 26px */
+      
+      
+      /* #FAFAF9 */
+      color: #FAFAF9;
+      }
+
+      .grzak{
+        white-space: nowrap;
+        position: absolute;
+        left: 100px;
+        right: 100px;
+        bottom: 83.75%;
+        margin-left: 55em;
+        top: 30px;
+        
+        /* Блочный текст */
+        
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+        
+        
+        /* #FAFAF9 */
+        color: #FAFAF9;
+      }
+
+      .postpok{
+        white-space: nowrap;
+        position: absolute;
+        left: 100px;
+        right: 100px;
+        bottom: 83.75%;
+        margin-left: 55em;
+        top: 65px;
+        
+        /* Блочный текст */
+        
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        /* identical to box height, or 26px */
+        
+        
+        /* #FAFAF9 */
+        color: #FAFAF9;
+      }
+
+      .massage{
+        position: absolute;
+left: 50px;
+right: 9.51px;
+top: -35em;
+bottom: 44.68px;
+ }
+
+ .texte{
+  position: absolute;
+  left: 5%;
+  right: 2.01%;
+  top: 57%;
+  bottom: 43.71%;
+  margin-top: 120px;  
+
+ }
+ 
+/* .zadniy{
+  background: url(image/fei.svg) center/cover no-repeat ;
+} */
+.zadniy img{
+  z-index: 1;
+}
+
+
+.video{
+  z-index: 4;
+  bottom: 280px;
+  left: 380px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.go-top {
+  position: fixed; /* фиксированное позиционирование */
+  left: 20px; /* отступ слева 20px */
+  top: 50%; /* выравниваем по центру */
+  transform: translateY(-50%); /* выравниваем по центру */
+  cursor: pointer; /* при наведении меняем курсор */
+  display: none; /* по умолчанию скрываем кнопку */
+  font-size: 20px;
+  color: rgba(0, 51, 153, 0.5);
+  border: 1px solid rgba(0, 51, 153, 0.5);
+  background-color: rgba(0, 51, 153, 0.1);
+  padding: 15px 10px;
+}
+
+/* меняем прозрачность при наведении мышкой */
+.go-top:hover {
+  color: rgba(0, 51, 153, 0.8);
+  border: 1px solid rgba(0, 51, 153, 0.8);
+  background-color: rgba(0, 51, 153, 0.15);
+}
+
+/* модификатор для отображения кнопки */
+.go-top--show {
+  display: block;
+}
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.44);
+
+}
+.modal-content{
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+
+
+}
+.close{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+body
+{
+  background-color: #ffffff;
+}
+
+.clockpage
+{
+  margin: auto;
+  max-width: 500px;
+  min-width: 100px;
+  background: white;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 10px solid #55c49f;
+  margin-top: 100px;
+}
+#dayOfWeek
+{
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+}
+
